@@ -1,0 +1,90 @@
+
+/* NAVBAR */
+.home{
+    font-weight: 500;
+    padding-left: 220px !important;
+ font-size: 19px;
+
+}
+@media screen and (max-width: 600px) {
+    .home{
+    
+        padding-left: 0 !important;
+    }
+  }
+
+.home li {
+   
+    padding-left: 12px !important ;
+ 
+}
+.navbarlogo{
+    height: 125px;
+    width: 140px;
+   margin: 0% !important;
+}
+
+
+/* CONTENT */
+.aboutimg{
+    background-image: url(../IMAGES/About/pexels-pixabay-533769.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+     padding:  220px;
+
+    color:  #07395c;
+    text-align: center;
+}
+.aboutheading{
+   
+   
+}
+ .map{
+    height:500px;
+ }
+/* FOOTER */
+.icon {
+    height: 20px;
+    width: 20px;
+}
+.listyle {
+    list-style: none;
+
+}
+.listyle li a{
+    color: white;
+   text-decoration: none;
+}
+.listyle li{
+     padding-top: 10px ;
+}
+.sociallinks a{
+    padding-left: 10px !important;
+
+}
+.sociallinks a i:hover{
+  
+    transform: scale(1.3);
+}
+   
+ 
+
+.footerbg {
+    color: white;
+   background-color: black;
+    opacity: 0.7;
+}
+.imgfooter {
+   
+    height: 180px;
+    width: 180px;
+}
+.bgimg {
+    background-image: url(../IMAGES/canada-national-parks-Yoho-GettyImages-155278913.webp);
+   
+}
+.footerheading{
+    font-weight: bold;
+    font-size: 22px;
+}

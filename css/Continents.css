@@ -1,0 +1,158 @@
+/* NAVBAR */
+.home{
+    font-weight: 500;
+    padding-left: 220px !important;
+ font-size: 19px;
+
+}
+@media screen and (max-width: 600px) {
+    .home{
+    
+        padding-left: 0 !important;
+    }
+  }
+
+.home li {
+   
+    padding-left: 12px !important ;
+ 
+}
+.navbarlogo{
+    height: 125px;
+    width: 140px;
+   margin: 0% !important;
+}
+
+/* CONTENT */
+body{
+    background-color:rgba(17, 17, 17, 0.048) !important;
+}
+
+
+
+
+
+
+.mainheading{
+color: #07395c;
+	font-weight: bold;
+	
+}
+.cards_styling{
+    background-image:linear-gradient(rgb(160, 157, 157), #0b3f64f6);
+    color: white ;
+  padding: 10px;
+  text-align: center;
+  box-shadow:6px 9px 6px -4px #dfdfdf;
+  border-radius: 5px !important;
+}
+.cards_styling h4{
+	color: white;
+	font-weight: bold;
+	
+}
+.card_img{
+	border-radius: 100% !important;
+    width: 150px !important;
+    height: 150px;
+
+}
+.cards_styling:hover{
+    background-image:linear-gradient( #0b3f64f6,rgb(160, 157, 157));
+    color: white;
+   }
+   /* .cards_styling:hover h4{
+       color: white;
+   }
+   .cards_styling:hover .btnBlueFill{
+       color: #07395c !important ;
+       background-color: white !important;
+       box-shadow: none !important;
+      font-weight: bold !important;
+   }
+   .cards_styling:hover .btnOutlineDownload{
+       color: #07395c !important ;
+       background-color: white !important;
+       border: 1px solid white !important;
+      
+   }
+   .cards_styling:hover .cardFooter .end{
+    color: white ;
+   } */
+.anchortag{
+	text-decoration: none;
+}
+.btnBlueFill{
+	/* background: #0d6efd !important; */
+    color: #07395c !important;
+    font-weight: bold !important;
+    border: none !important;
+    border-radius: 50px !important;
+    padding: 9px 36px !important;
+    /* box-shadow: 7px 6px 10px #b1ccee; */
+   
+    background-color: white !important;
+  
+}
+
+
+.btnOutlineDownload{
+    color: white!important;
+	border: 1px solid white !important;
+	background: #07395c;
+	border-radius: 100px !important;
+}
+
+.cardFooter{
+	border: none !important;
+	background: none !important;
+	padding: 0 !important;
+	text-align: right;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.cardFooter .end{
+	color: white;
+}
+/* FOOTER */
+.icon {
+    height: 20px;
+    width: 20px;
+}
+.listyle {
+    list-style: none;
+
+}
+.listyle li a{
+    color: white;
+   text-decoration: none;
+}
+.listyle li{
+     padding-top: 10px ;
+}
+.sociallinks a{
+    padding-left: 10px !important;
+
+}
+.sociallinks a i:hover{
+  
+    transform: scale(1.3);
+}
+.footerbg {
+    color: white;
+   background-color: black;
+    opacity: 0.7;
+}
+.imgfooter {
+   
+    height: 180px;
+    width: 180px;
+}
+.bgimg {
+    background-image: url(../IMAGES/canada-national-parks-Yoho-GettyImages-155278913.webp);
+   
+}
+.footerheading{
+    font-weight: bold;
+    font-size: 22px;
+}

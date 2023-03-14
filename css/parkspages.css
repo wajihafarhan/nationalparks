@@ -1,0 +1,774 @@
+/* LOGO NAVBAR */
+.home{
+  padding-left: 280px !important;
+
+
+}
+@media screen and (max-width: 600px) {
+  .home{
+  
+      padding-left: 0 !important;
+  }
+}
+
+.home li a{
+  font-size: 18px;
+}
+/* NAVBAR */
+.divflex1{
+  background-color: black;
+  color: white;
+opacity: 0.7;
+}
+.bgimgdiv{
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(../IMAGES/navimg.PNG);}
+.navicons{
+  color: white;  
+
+}
+
+.navsociallinks a i:hover{
+  transform: scale(1.3);
+}
+.navsociallinks a {
+  margin: 10px;
+
+}
+.navbarlogo{
+  padding: 5px;
+  height: 145px;
+  width: 160px;
+ 
+}
+.div1{
+  margin-left: 40px!important;
+  padding-top: 55px;
+}
+.div2{
+ margin-left: 110px!important;
+
+}
+.div3{
+ margin-left: 100px!important;
+  padding-top: 40px;
+
+}
+
+
+.containernav{
+  text-align: center;
+  color: black 20px;
+  height: 300px;
+  width: 100% !important;
+  background-image: url(../IMAGES/icons/giphy\ \(2\).gif) ;
+  box-shadow: 10px 10px 5px rgba(22, 22, 22, 0.774);
+}
+.containernav .background{
+
+}
+.aboutpic
+{
+  width: 100%;
+}
+.containernav a {
+  
+
+  padding-top: 30px;
+  color: white;
+  font-size: larger;
+}
+.imagesst{
+  box-shadow: 10px 10px 5px rgba(22, 22, 22, 0.774);
+border-radius: 10px;
+  width: 100%;
+  height: 200px;
+
+}
+.imagesst:hover {
+  box-shadow: 20px 20px 10px rgba(22, 22, 22, 0.651);
+  border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+.geoloc{
+  box-shadow:20px 20px 10px rgba(22, 22, 22, 0.651) ;
+  border-radius: 200%;
+}
+.btnBlueFill{
+	background: #07395c !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 50px !important;
+    padding: 9px 36px !important;
+    box-shadow: 7px 6px 10px #c0dcff;
+}
+.cards{
+  background: #efefef !important;
+}
+.cardsdiv{
+}
+.imgcrd{
+  height: 116px;
+  width: fit-content;
+  padding: 16px;
+}
+.teamtext{
+  color: grey;
+  font-size: 14px;
+}
+
+.thumbnail{
+  padding-bottom: 20px;
+  width: 100%;
+  height: 100px;
+  
+}
+.thumbnail:hover {
+  padding-bottom: 20px;
+  width: 150%;
+  height: 150px;
+  
+}
+.animalsbg{
+  background-color: rgba(128, 128, 128, 0.315);
+}
+.animalimg{
+height: 300px;
+width: 100%;
+}
+
+
+
+
+
+
+/* FOOTER */
+.icon {
+    height: 20px;
+    width: 20px;
+}
+.listyle {
+    list-style: none;
+
+}
+.listyle li a{
+    color: white;
+   text-decoration: none;
+}
+.listyle li{
+     padding-top: 10px ;
+}
+.sociallinks a{
+    padding-left: 10px !important;
+
+}
+.sociallinks a i:hover{
+  
+    transform: scale(1.3);
+}
+.footerbg {
+    color: white;
+   background-color: black;
+    opacity: 0.7;
+}
+.imgfooter {
+   
+    height: 180px;
+    width: 180px;
+}
+.bgimg {
+    background-image: url(../IMAGES/canada-national-parks-Yoho-GettyImages-155278913.webp);
+   
+}
+.footerheading{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+
+/* mana pools */
+.backgroundmanapools{ 
+  background-image: url('../IMAGES/Mana Pools National Park/Mana Pools National Park.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+
+
+
+/* end raas */
+
+/* masoala start */
+.backgroundpriel{
+  background-image: url('../IMAGES/priel brusy national park/800px-Канатная_дорога_в_Приэльбрусье.jpg');
+  padding-top: 200px;
+  padding-bottom: 200px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+  
+   width: 100%;}
+
+
+/* waadi start */
+.backgroundwaadi{
+  background-image: url('../IMAGES/Wadi el Gemal/wadi-gemal (2).jpg');
+  padding-top: 200px;
+  padding-bottom: 200px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+  
+   width: 100%;
+}
+/* end waadi */
+/* Simien Mountains National Park */
+.backgroundsimen{
+  background-image: url('../IMAGES/Simien Mountains National Park/Simien Mountains National Park panoramic.jpg');
+  padding-top: 200px;
+  padding-bottom: 200px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+  
+   width: 100%;
+}
+/* Simien Mountains National Park */
+
+/* bale mountain */
+
+.backgroundbale{
+  background-image: url('../IMAGES/Bale Mountains National Park/Bale Mountains National Park.jpg');
+  padding-top: 200px;
+  padding-bottom: 200px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+  
+   width: 100%;
+}
+
+/* end */
+/* waza */
+.backgroundwaza{
+  background-image: url('../IMAGES/Waza National Park/Waza National Park (1).jpg');
+  padding-top: 200px;
+  padding-bottom: 200px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+  
+   width: 100%;
+}
+
+/* end */
+/* korup */
+.backgroundkorup{
+  background-image: url('../IMAGES/Korup National Park/Korup National Park.jpg');
+  padding-top: 200px;
+  padding-bottom: 200px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+  
+   width: 100%;
+}
+/* end */
+/* virunga */
+.backgroundvirunga{
+  background-image: url('../IMAGES/Virunga National Park/Virunga National Park volcano mountain.jpg');
+  padding-top: 200px;
+  padding-bottom: 200px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+  
+   width: 100%;
+}
+/* end */
+/* mangroove */
+.backgroundmangroove{
+  background-image: url('../IMAGES/Mangroves National Park/Mangrove in Abu Dhabi.webp');
+  padding-top: 200px;
+  padding-bottom: 200px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+  
+   width: 100%;
+}
+/* end */
+/* Kakum National Park */
+.backgroundkakum{
+background-image: url('../IMAGES/Kakum National Park/Kakum National Park suspension bridge.jpg');
+  padding-top: 200px;
+  padding-bottom: 200px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+  
+   width: 100%;}
+/* end */
+/* Mole National Park */
+.backgroundmole{
+  background-image: url('../IMAGES/Mole National Park/Mole National Park.jpg');
+    padding-top: 200px;
+    padding-bottom: 200px;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+    
+     width: 100%;}
+  /* end */
+
+  /* Mole National Park */
+.backgroundchobe{
+  background-image: url('../IMAGES/Chobe National Park/Chobe National Park sunset.jpg');
+    padding-top: 200px;
+    padding-bottom: 200px;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+    
+     width: 100%;}
+  /* end */
+
+  /* ranomafana National Park */
+.backgroundranomafana{
+  background-image: url('../IMAGES/Ranomafana National Park/Ranomafana National Park jungle landscape.jpg');
+    padding-top: 200px;
+    padding-bottom: 200px;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+    
+     width: 100%;}
+     
+  /* end */
+   /* fuji National Park */
+.backgroundfuji{
+  background-image: url('../IMAGES/Fuji-Hakone-Izu National Park/Fuj-Hakone-Izu National Park beach.jpg');
+    padding-top: 200px;
+    padding-bottom: 200px;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+    
+     width: 100%;}
+  /* end */
+
+   /* niko National Park */
+.backgroundniko{
+  background-image: url('../IMAGES/Ranomafana National Park/Ranomafana National Park jungle landscape.jpg');
+    padding-top: 200px;
+    padding-bottom: 200px;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+    
+     width: 100%;}
+  /* end */
+   /* masola National Park */
+.backgroundmasoala{
+  background-image: url('../IMAGES/Masoala National Park/20210511004629-Masoala National Park.jpg');
+    padding-top: 200px;
+    padding-bottom: 200px;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: center;
+    
+     width: 100%;}
+  /* end */
+
+  /* bale mountain */
+
+.backgroundbale{
+  background-image: url('../IMAGES/Bale Mountains National Park/Bale Mountains National Park.jpg');
+  padding-top: 200px;
+  padding-bottom: 200px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+  
+   width: 100%;
+}
+
+/* raas park */
+.backgroundraas{
+  background-image: url('../IMAGES/ras muhammad/Ras Muhammad National Park.jpg');
+  padding-top: 200px;
+  padding-bottom: 200px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+  
+   width: 100%;
+}
+/* losiny */
+.backgroundlosiny{
+  background-image: url('../IMAGES/losiny ostrov national park/800px-Babaevskiy_pond_(Goliyanovo,_Moscow)_12.jpg');
+  padding-top: 200px;
+  padding-bottom: 200px;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+  
+   width: 100%;
+}
+/* tasili */
+.background{ 
+  background-image: url('../IMAGES/Tassili/Tassili\ n\'Ajjer\ National\ Park\ rock\ tower.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+/* victoria */
+.backgroundvictoria{ 
+  background-image: url('../IMAGES/Victoria Falls National Park/20210212173252-Bungee Jump at Victoria Falls.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+ 
+ /* niko */
+.backgroundniko{ 
+  background-image: url('../IMAGES/Nikko National Park/Kegon Falls and fall foliage.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+/* shiretoko */
+.backgroundshiretoko{ 
+  background-image: url('../IMAGES/Shiretoko National Park/Shiretoko National Park.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+/* Bukhansan National Park */
+.backgroundbukhansan{ 
+  background-image: url('../IMAGES/Bukhansan National Park/Bukhansan National Park.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+/* Seoraksan National Park National Park */
+.backgroundseoraksan{ 
+  background-image: url('../IMAGES/Seoraksan National Park/Seoraksan National Park valley.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+/* Hallasan National Park */
+.backgroundhallasan{ 
+  background-image: url('../IMAGES/Hallasan National Park/20210707141231-Hallasan National Park.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+/* Jirisan National Park */
+.backgroundjirisan{ 
+  background-image: url('../IMAGES/jirison national park/20210726194959-Jirisan National Park hwaeomsa fall foliage.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+/* Naejangsan National Park */
+.backgroundnaejangsan{ 
+  background-image: url('../IMAGES/Naejangsan National Park/20210805221646-Naejangsan National Park baekyangsa temple.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+/* phnom National Park */
+.backgroundphnom{ 
+  background-image: url('../IMAGES/Bale Mountains National Park/Bale Mountains National Park wtih lobelia (1).jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+/* goreme National Park */
+.backgroundgoreme{ 
+  background-image: url('../IMAGES/Ancient Goreme National Park/Goreme National Park 8 story dwellings.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+/* Jigme Dorji National Park */
+.backgroundjigme{ 
+  background-image: url('../IMAGES/Jigme Dorji National Park/river paro running through Jigme Dorji.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+/* Royal Manas National Park */
+.backgroundmanas{ 
+  background-image: url('../IMAGES/Royal Manas National Park/Royal Manas National Park landscape.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+/* yala National Park */
+.backgroundyala{ 
+  background-image: url('../IMAGES/Yala National Park/Yala National Park peacock.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+/* vodlozersky National Park */
+.backgroundvodlo{ 
+  background-image: url('../IMAGES/Vodlozersky National Park/Vodlozersky National Park sunset (1).jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+/* Rodna Mountains National Park */
+.backgroundrodna{ 
+  background-image: url('../IMAGES/Rodna Mountains National Park/Rodna National Park (1).jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+/* Domogled-Valea Cernei National Park */
+.backgrounddomog{ 
+  background-image: url('../IMAGES/Domogled-Valea Cernei National Park/Fesoj_-_Papilio_machaon_(by).jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+/* retezat National Park */
+.backgroundretezat{ 
+  background-image: url('../IMAGES/Retezat National Park/Retezat National Park lake in mountains.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+/* Killarney National Park */
+.backgroundkillerney{ 
+  background-image: url('../IMAGES/Killarney National Park/Killarney National Park forest trail.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+/* Connemara National Park */
+.backgroundconnemara{ 
+  background-image: url('../IMAGES/Connemara National Park/Connemara National Park lake landscape.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+/* ordesa National Park */
+.backgroundordesa{ 
+  background-image: url('../IMAGES/Ordesa y Monte Perdido National Park/Ordesa Y Monte perdido National Park watefall.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+/* cinque National Park */
+.backgroundcinque{ 
+  background-image: url('../IMAGES/Cinque Terre National Park/Cinque Terre National Park sunlit city.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+/* dolomiti National Park */
+.backgrounddolomiti{ 
+  background-image: url('../IMAGES/Dolomiti Bellunesi National Park/Dolomiti Bellunesi National Park Cadini del Brenton.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+
+/* end */
+
+
+/* bavarian National Park */
+.backgroundbavarian{ 
+  background-image: url('../IMAGES/Bavarian Forest National Park/Bavarian Forest National Park wolf.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+/* saxon National Park */
+.backgroundsaxon{ 
+  background-image: url('../IMAGES/Saxon Switzerland National Park/Saxon Switzerland National Park witner.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
+
+/* wicklow National Park */
+.backgroundwicklow{ 
+  background-image: url('../IMAGES/Wicklow Mountains National Park/Wicklow Mountains National Park.jpg');
+padding-top: 200px;
+padding-bottom: 200px;
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-size: cover;
+ text-align: center;
+
+ width: 100%;}
+/* end */
