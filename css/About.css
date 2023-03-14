@@ -18,7 +18,10 @@
     padding-left: 10px !important ;
  
 }
+nav{
+    background: #41695e;
 
+}
 /* NAVBAR */
 .divflex1{
      /* background-image:linear-gradient( #6e7f8df6,#094875ec); */
