@@ -61,14 +61,16 @@ nav{
 
 /* CONTENT */
 .aboutimg{
-    background-image: url(../IMAGES/About/pexels-pixabay-533769.jpg);
+    background:linear-gradient(53deg,#080a09ba,#14221e6e), url(../IMAGES/About/pexels-pixabay-533769.jpg);
+   
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-     padding:  220px;
+     padding:  150px;
 
-    color:  #07395c;
+    color: white;
     text-align: center;
+    height: 400px;
 }
 .aboutheading{
    
