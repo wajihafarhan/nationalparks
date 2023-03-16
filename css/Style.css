@@ -114,9 +114,10 @@ border-radius:3px ;
 }
 .about{
     letter-spacing: 5px;
-    color: #07395c;
+   color:  #41695e ;
     font-weight: bold;
     font-size: 25px;
+    
 }
 .aboutpic{
     height: 100%;
@@ -200,10 +201,12 @@ border-radius: 100%;
 .carousalimg{
 height: 100%;
 
+
 }
 
   /* DESTINATION */
 .destination-overlay {
+
     position: absolute;
     top: 30px;
     right: 55px;
@@ -222,6 +225,7 @@ height: 100%;
     transform: scale(1.3)
 }
 .destination-item img {
+ 
     transition: .5s
 }
 .destination-item:hover .destination-overlay {
