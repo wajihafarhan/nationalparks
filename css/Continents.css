@@ -21,7 +21,13 @@ nav{
     background: #41695e;
 
 }
-
+.btnGreen{
+    background: #41695e !important;
+    color: white !important;
+    font-size: 1.3rem !important;
+    letter-spacing: 1px;
+    border-radius: 0px !important;
+}
 /* NAVBAR */
 .divflex1{
      /* background-image:linear-gradient( #6e7f8df6,#094875ec); */
@@ -73,20 +79,20 @@ body{
 
 
 .mainheading{
-color: #07395c;
+
 	font-weight: bold;
 	
 }
 .cards_styling{
-    background-image:linear-gradient(rgb(160, 157, 157), #0b3f64f6);
-    color: white ;
+
+    color: black !important;
   padding: 10px;
   text-align: center;
   box-shadow:6px 9px 6px -4px #dfdfdf;
   border-radius: 5px !important;
 }
 .cards_styling h4{
-	color: white;
+color: black;
 	font-weight: bold;
 	
 }
@@ -97,8 +103,8 @@ color: #07395c;
 
 }
 .cards_styling:hover{
-    background-image:linear-gradient( #0b3f64f6,rgb(160, 157, 157));
-    color: white;
+    background-image:linear-gradient( #41695e,#efd284);
+  
    }
    /* .cards_styling:hover h4{
        color: white;
@@ -151,7 +157,7 @@ color: #07395c;
     letter-spacing: 1px;
 }
 .cardFooter .end{
-	color: white;
+	
 }
 /* FOOTER */
 .icon {
