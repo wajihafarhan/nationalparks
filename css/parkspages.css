@@ -98,12 +98,12 @@ border-radius: 10px;
   border-radius: 200%;
 }
 .btnBlueFill{
-	background: #07395c !important;
+	background: #41695e !important;
     color: white !important;
     border: none !important;
     border-radius: 50px !important;
     padding: 9px 36px !important;
-    box-shadow: 7px 6px 10px #c0dcff;
+   
 }
 .cards{
   background: #efefef !important;
@@ -569,7 +569,7 @@ padding-bottom: 200px;
 
 /* goreme National Park */
 .backgroundgoreme{ 
-  background-image: url('../IMAGES/Ancient Goreme National Park/Goreme National Park 8 story dwellings.jpg');
+  background-image: url('../IMAGES/ancient gerome/Goreme National Park rocky landscape.jpg');
 padding-top: 200px;
 padding-bottom: 200px;
  background-attachment: fixed;

@@ -129,22 +129,22 @@ color: black;
 }
 .btnBlueFill{
 	/* background: #0d6efd !important; */
-    color: #07395c !important;
+    color: white!important;
     font-weight: bold !important;
     border: none !important;
     border-radius: 50px !important;
     padding: 9px 36px !important;
     /* box-shadow: 7px 6px 10px #b1ccee; */
    
-    background-color: white !important;
+    background-color:#41695e !important;
   
 }
 
 
 .btnOutlineDownload{
-    color: white!important;
-	border: 1px solid white !important;
-	background: #07395c;
+    color: #41695e!important;
+	border: 1px solid #41695e !important;
+	background: #41695e;
 	border-radius: 100px !important;
 }
 

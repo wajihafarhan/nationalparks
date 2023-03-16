@@ -75,19 +75,19 @@ nav{
 }
 .divcolor{
     box-shadow:6px 9px 6px -4px #dfdfdf;
-    color: white;
+    color: black;
    /* background-color: #07395cec ; */
-   background-image:linear-gradient(rgb(160, 157, 157), #0b3f64f6);
+   background-image:linear-gradient( #efd284, #41695e);
  padding-left: 0% !important;
 
 
 }
 .divcolor:hover{
-    background-image:linear-gradient( #0b3f64f6 ,rgb(160, 157, 157));
+    background-image:linear-gradient( #41695e , #efd284);
 }
 .btnOutlineDownload{
-	color:white !important;
-	border: 1px solid white !important;
+	color:black !important;
+	border: 1px solid black !important;
 
 	border-radius: 100px !important;
 }
@@ -139,9 +139,9 @@ color: white;
 
 }
 .name{
-
-  background-image:linear-gradient(rgb(160, 157, 157), #0b3f64f6);
-  color: white;
+    background-image:linear-gradient( #41695e , #efd284);
+ 
+  color: black;
   padding: 8px;
  
  
@@ -151,7 +151,7 @@ color: white;
 }
 .readmore{
     
-    color: #07395c;
+    color: #41695e;
     font-weight: bold;
 }
 /* FOOTER */
