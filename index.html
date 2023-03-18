@@ -18,6 +18,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+  <style>
+    .carousel-caption {
+      position: absolute;
+      z-index: 13;
+    }
+  </style>
 </head>
 
 <body>
@@ -230,11 +236,13 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active carousalitems">
+        <div id="overlay"></div>
         <img src="IMAGES/Home/Ours._Mt_Sabyinyo__Volcanoes_National_Park_in_Rwanda.avif"
           class="d-block w-100 carousalimg" alt="...">
         <div class="carousel-caption top-0 mt-5  d-md-block">
-          <p class="mt-5 fs-2 fw-bold text-uppercase">Discover The Hidden World</p>
-          <h5 class="display-1 fw-bolder text-capitalize">AFRICA</h5>
+
+          <p class="mt-5 fs-2 fw-bold text-uppercase FontFamily_Spectral">Discover The Hidden World</p>
+          <h5 class="display-1 fw-bolder text-capitalize FontFamily_Spectral">AFRICA</h5>
           <p class="mt-2 fs-4 ">We are here to help you discover, explore, and learn more about the <br>national parks
             in Africa and why we
             need to protect them.</p>
@@ -243,22 +251,27 @@
         </div>
       </div>
       <div class="carousel-item carousalitems">
+        <div id="overlay"></div>
         <img src="IMAGES/Home/Nikko National Park mountain.jpg" class="d-block w-100 carousalimg" alt="...">
         <div class="carousel-caption top-0 mt-5  d-md-block">
           <p class="mt-5 fs-2 fw-bold  text-uppercase">Discover The Hidden World</p>
-          <h5 class="display-1 fw-bolder text-capitalize ">ASIA</h5>
+          <h5 class="display-1 fw-bolder text-capitalize FontFamily_Spectral">ASIA</h5>
           <p class="mt-2 fs-4 ">We are here to help you discover, explore, and learn more about the <br>national parks
             in Asia and why we
             need to protect them.</p>
-          <a href="Asia.html"> <button type="button" class="btn btnGreen">Read More &nbsp; &nbsp; &nbsp; → </button></a>
+          <a href="Asia.html">
+            <button type="button" class="btn btnGreen">Read More &nbsp; &nbsp; &nbsp; → </button>
+          </a>
+
         </div>
       </div>
       <div class="carousel-item carousalitems">
+        <div id="overlay"></div>
         <img src="IMAGES/Home/Bavarian Forest National Park winter landscape with house.jpg"
           class="d-block w-100 carousalimg" alt="...">
         <div class="carousel-caption top-0 mt-5  d-md-block">
-          <p class="mt-5 fs-2 fw-bold text-uppercase">Discover The Hidden World</p>
-          <h5 class="display-1 fw-bolder text-capitalize">EUROPE</h5>
+          <p class="mt-5 fs-2 fw-bold text-uppercase FontFamily_Spectral">Discover The Hidden World</p>
+          <h5 class="display-1 fw-bolder text-capitalize FontFamily_Spectral">EUROPE</h5>
           <p class="mt-2 fs-4 ">We are here to help you discover, explore, and learn more about the <br>national parks
             in Europe and why we
             need to protect them.</p>
@@ -364,16 +377,16 @@
         <div class="webpage">
           <br>
           <h5 class="title">Fauna / Reptile </h5>
-          
+
           <button class="cta-button">
-          Read More
+            Read More
           </button>
-          
+
           <div class="right-triangle">
-             
-           
+
+
           </div>
-          
+
         </div>
         <!-- <div class="animaldiv2">
 
@@ -388,16 +401,16 @@
         <div class="webpage1">
           <br>
           <h5 class="title">Fauna / Mammals </h5>
-          
+
           <button class="cta-button">
-          Read More
+            Read More
           </button>
-          
+
           <div class="right-triangle">
-             
-           
+
+
           </div>
-          
+
         </div>
         <!-- <div class="animaldiv2">
 
@@ -412,16 +425,16 @@
         <div class="webpage2">
           <br>
           <h5 class="title">Fauna / Fishes </h5>
-          
+
           <button class="cta-button">
-          Read More
+            Read More
           </button>
-          
+
           <div class="right-triangle">
-             
-           
+
+
           </div>
-          
+
         </div>
         <!-- <div class="animaldiv2">
 
@@ -438,11 +451,31 @@
   <br><br>
 
 
+  <div class="FixedDiv" >
+<div class="container">
 
 
-  <center>
+    <h1 data-aos="zoom-in-up"> Let's Discover The<br> World Together</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum incidunt perspiciatis delectus repellat aut
+      assumenda est officia necessitatibus voluptatem soluta officiis voluptas ab asperiores, tempora recusandae ipsam
+      vero, quis facere.</p>
+    <br>
+</div>
+  
+
+  </div>
+<br>
+<br>
+<br>
+<div class="container">
+   <center>
     <h1>Contact Us</h1>
+    <p class="text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nobis cupiditate ipsum,
+      minus necessitatibus velit totam, tenetur debitis amet nemo enim incidunt sit id perspiciatis eos, sapiente
+      expedita adipisci non.</p>
   </center>
+</div>
+ 
   <br>
 
   <div class="container">
@@ -568,7 +601,7 @@
         </div>
         <div class="credits">
 
-          Designed by <a style="color:  #296af7;" href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a style="color:  #296af7;" href="">batch 2211b2</a>
         </div><br>
       </div>
     </footer>

@@ -65,14 +65,11 @@ box-shadow: 1px 2px 3px 3px rgba(31, 30, 30, 0.582);
 	padding: 16px;
 }
 .btnGreen{
-    
-    border-radius: 7px !important;
-    padding-left: 33px;
-    padding-right: 33px;
     background: #41695e !important;
     color: white !important;
     font-size: 1.3rem !important;
     letter-spacing: 1px;
+    border-radius: 0px !important;
    
 }
 .btnsubmit{
@@ -94,6 +91,9 @@ letter-spacing: 1px;
 #ID_error1 , #ID_error2 , #ID_error3 , #ID_error4 ,#ID_error5{
     color: red;
     display: none;
+}
+#emailcorrecterror{
+    color: red;
 }
 
 @media screen and (max-width: 600px) {
@@ -118,15 +118,19 @@ border-radius: 100%;
 }
 label{
   
- font-size: 18px;
+    font-size: 15px;
     color: #555;
+    margin-bottom: 7px;
 }
 form input{
     border: 1px solid #ccc;
     border-radius: 4px;
     height: 50px !important;
     padding-left: 18px;
+ 
+
     color: #848484;
+    /* background: #f1f1f1; */
 }
 textarea{
     width: 93%;
@@ -178,4 +182,32 @@ textarea{
 .footerheading{
     font-weight: bold;
     font-size: 22px;
+}
+.sliderwork{ 
+    /* background-image: url(../IMAGES/Home/img1.jpg); */
+    background:linear-gradient(53deg,#080a09ba,#14221e6e), url(../IMAGES/banner1.jpg);
+   
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+width: 100%;
+
+}
+.sliderwork{
+   text-align: left; 
+    padding-top: 15px;
+ padding-bottom: 100px;
+ font-family: 'Spectral', serif;
+
+ padding-left: 45px;
+
+}
+.sliderwork h1{
+   color: white;
+   font-weight: bold;
+   font-size: 4.5rem;
+}
+.Cl_Card{
+    background: white;
+    box-shadow: none;
 }
